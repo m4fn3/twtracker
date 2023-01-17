@@ -1,4 +1,7 @@
-import tweepy, time, datetime, json
+import datetime
+import json
+import time
+import tweepy
 from discord_webhook import DiscordWebhook
 
 with open("secret.json") as f:
